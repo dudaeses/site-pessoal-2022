@@ -40,20 +40,26 @@ svg{
 
 /*INDEX*/
 
-@media  (min-width: 50px) and (max-width: 1800px) {
+@media  (min-width: 50px) and (max-width: 1500px) {
     #index img {
         padding: 10px;
     }
 }
 
-@media  (min-width: 1000px) and (max-width: 1500px) {
+@media  (min-width: 1000px) and (max-width: 10000px) {
     #destaques{
-        padding-top: 12%;
+        padding-top: 10%;
     }
 }
 
 #index img{
-    border-radius: 10%;
+    border-radius: 8%;
+    padding: 10px;
+}
+
+#index a{
+    color: #000000;
+    text-decoration: underline;
 }
 
 /*EU*/
@@ -79,6 +85,14 @@ svg{
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+#hobbies, #albuns, #pets{
+    margin-bottom: 55px;
+}
+
+
+
+
 
 #hobbies, #albuns, #pets{
     margin-bottom: 55px;
