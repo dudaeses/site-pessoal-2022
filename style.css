@@ -39,64 +39,30 @@ svg{
 }
 
 /*INDEX*/
-
 @media  (min-width: 50px) and (max-width: 1500px) {
     #index img {
         padding: 10px;
     }
 }
 
-@media  (min-width: 1000px) and (max-width: 10000px) {
+@media  (min-width: 490px) and (max-width: 10000px) {
     #destaques{
-        padding-top: 10%;
+        padding-top: 15rem;
     }
 }
 
 #index img{
-    border-radius: 8%;
+    border-radius: 5%;
     padding: 10px;
 }
 
 #index a{
     color: #000000;
-    text-decoration: underline;
 }
+
+  
 
 /*EU*/
-
-#containereu{
-    width: 80vw;
-    height: 90vh;
-    box-shadow: 0 0 2em gold;
-    display: flex;
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    
-}
-
-/*SOBRE MIM*/
-
-#hobbies, #albuns, #pets, #fotos{
-    width: 50vw;
-    box-shadow: 0 0 2em rgb(0, 4, 255);
-    display: flex;
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-#hobbies, #albuns, #pets{
-    margin-bottom: 55px;
-}
-
-
-
-
-
-#hobbies, #albuns, #pets{
-    margin-bottom: 55px;
-}
 
 
 
