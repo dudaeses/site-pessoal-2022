@@ -1,0 +1,88 @@
+/*GERAL*/
+
+*{  
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+
+footer{
+    padding: 10px;
+}
+
+footer h1{
+    font-size: 15px;
+    font-style: bold;
+    text-align: center;
+}
+
+/*MENU*/
+button{
+    background-color: black;
+}
+
+svg{
+    margin: 10px;
+}
+
+.nav h5{
+    font: 20px;
+}
+
+.nav a{
+    color: white;
+    font-size: 18px;
+}
+
+.nav a:hover{
+    color: white;
+    opacity: 80%;
+}
+
+/*INDEX*/
+
+@media  (min-width: 50px) and (max-width: 1800px) {
+    #index img {
+        padding: 10px;
+    }
+}
+
+@media  (min-width: 1000px) and (max-width: 1500px) {
+    #destaques{
+        padding-top: 12%;
+    }
+}
+
+#index img{
+    border-radius: 10%;
+}
+
+/*EU*/
+
+#containereu{
+    width: 80vw;
+    height: 90vh;
+    box-shadow: 0 0 2em gold;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+/*SOBRE MIM*/
+
+#hobbies, #albuns, #pets, #fotos{
+    width: 50vw;
+    box-shadow: 0 0 2em rgb(0, 4, 255);
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#hobbies, #albuns, #pets{
+    margin-bottom: 55px;
+}
+
+
+
