@@ -1,0 +1,25 @@
+/*GERAL*/
+*{  
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+
+/*NAVBAR*/
+.nav a{
+    color: white;
+    font-size: 18px;
+}
+
+.nav a:hover{
+    color: rgba(255, 255, 255, 0.411);
+}
+
+/*BIOGRAFIA*/
+#titulo-bio{
+    margin-top: 1rem;
+}
+
+/*SOBRE MIM*/
+.card{
+    background-color: #ff5487;
+}
