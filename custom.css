@@ -4,6 +4,10 @@
     color: white;
 }
 
+body {
+    position: relative;
+  }
+
 /*NAVBAR*/
 .nav a{
     color: white;
@@ -19,3 +23,9 @@
     margin-top: 1rem;
 }
 
+/*COMENTÁRIOS*/
+.balao{
+    margin-top: 3rem;
+    border: 2px solid white;
+    padding: 10px;
+}
